@@ -1,0 +1,52 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - corona_state_n_union_territories
+
+actions: 
+  - action_corona_tracker
+
+entities:
+  - state_n_union_territories
+
+  
+responses:
+  utter_greet:
+  - text: "Hey! I'm Zemaion how can i assist you regarding India's Covid19 situation"
+  - text: "Sup! I'm Zemaion i'll assist you with covid19 situation in India"
+  - text: "Ayo! This is Zemaion and i'll be answering all of your queries regarding Covid19 situation in India"
+
+  utter_did_that_help:
+  - text: "Did that help you ?"
+  - text: "Was that information was sufficient ?"
+  - text: "Was it helpful ?"
+
+  utter_affirm:
+  - text: "Great, carry on!"
+  - text: "cool, Go on!"
+  
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_deny:
+  - text: "This is all that i can assist you with"
+  - text: "It's all that i can provide you"
+
+  utter_iamabot:
+  - text: "I am a Zemaion, powered by Almighty Zeus."
+  - text: "I am a Zemaion, powered by the lord himself."
+
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  - text: I'm sorry, I can only serve you with Covid19 details.
+  - text: I'm sorry, I'm bound to provide corona details.
+  - text: I'm sorry, I don't deal with these kind of queries. 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

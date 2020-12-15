@@ -1,0 +1,236 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you ?
+    - you bot ?
+  
+
+#created one 
+
+- intent: corona_state_n_union_territories
+  examples: |
+    - [ind](state_n_union_territories)
+    - [india](state_n_union_territories)
+    - [corona](state_n_union_territories)
+    - [Andhra Pradesh](state_n_union_territories)
+    - [andhra pradesh](state_n_union_territories)
+    - [AP](state_n_union_territories)
+    - [ap](state_n_union_territories)
+    - [Arunachal Pradesh](state_n_union_territories)
+    - [arunachal pradesh](state_n_union_territories)
+    - [AR](state_n_union_territories)
+    - [ar](state_n_union_territories)
+    - [Assam](state_n_union_territories)
+    - [assam](state_n_union_territories)
+    - [AS](state_n_union_territories)
+    - [as](state_n_union_territories)
+    - [Bihar](state_n_union_territories)
+    - [bihar](state_n_union_territories)
+    - [BR](state_n_union_territories)
+    - [br](state_n_union_territories)
+    - [Chhattisgarh](state_n_union_territories)
+    - [chhattisgarh](state_n_union_territories)
+    - [CG](state_n_union_territories)
+    - [cg](state_n_union_territories)
+    - [Goa](state_n_union_territories)
+    - [goa](state_n_union_territories)
+    - [GA](state_n_union_territories)
+    - [ga](state_n_union_territories)
+    - [Haryana](state_n_union_territories)
+    - [haryana](state_n_union_territories)
+    - [HR](state_n_union_territories)
+    - [hr](state_n_union_territories)
+    - [Himachal Pradesh](state_n_union_territories)
+    - [himachal pradesh](state_n_union_territories)
+    - [HP](state_n_union_territories)
+    - [hp](state_n_union_territories)
+    - [Jharkhand](state_n_union_territories)
+    - [jharkhand](state_n_union_territories)
+    - [JH](state_n_union_territories)
+    - [jh](state_n_union_territories)
+    - [Karnataka](state_n_union_territories)
+    - [karnataka](state_n_union_territories)
+    - [KA](state_n_union_territories)
+    - [ka](state_n_union_territories)
+    - [Kerala](state_n_union_territories)
+    - [kerala](state_n_union_territories)
+    - [KL](state_n_union_territories)
+    - [kl](state_n_union_territories)
+    - [Madhya Pradesh](state_n_union_territories)
+    - [madhya pradesh](state_n_union_territories)
+    - [MP](state_n_union_territories)
+    - [mp](state_n_union_territories)
+    - [Maharashtra](state_n_union_territories)
+    - [maharashtra](state_n_union_territories)
+    - [MH](state_n_union_territories)
+    - [mh](state_n_union_territories)
+    - [Manipur](state_n_union_territories)
+    - [manipur](state_n_union_territories)
+    - [MN](state_n_union_territories)
+    - [mn](state_n_union_territories)
+    - [Meghalaya](state_n_union_territories)
+    - [meghalaya](state_n_union_territories)
+    - [ML](state_n_union_territories)
+    - [ml](state_n_union_territories)
+    - [Mizoram](state_n_union_territories)
+    - [mizoram](state_n_union_territories)
+    - [MZ](state_n_union_territories)
+    - [mz](state_n_union_territories)
+    - [Nagaland](state_n_union_territories)
+    - [nagaland](state_n_union_territories)
+    - [NL](state_n_union_territories)
+    - [nl](state_n_union_territories)
+    - [Odisha](state_n_union_territories)
+    - [odisha](state_n_union_territories)
+    - [OD](state_n_union_territories)
+    - [od](state_n_union_territories)
+    - [Punjab](state_n_union_territories)
+    - [punjab](state_n_union_territories)
+    - [PB](state_n_union_territories)
+    - [pb](state_n_union_territories)
+    - [Rajasthan](state_n_union_territories)
+    - [rajasthan](state_n_union_territories)
+    - [RJ](state_n_union_territories)
+    - [rj](state_n_union_territories)
+    - [Sikkim](state_n_union_territories)
+    - [sikkim](state_n_union_territories)
+    - [SK](state_n_union_territories)
+    - [sk](state_n_union_territories)
+    - [Tamil Nadu](state_n_union_territories)
+    - [tamil nadu](state_n_union_territories)
+    - [TN](state_n_union_territories)
+    - [tn](state_n_union_territories)
+    - [Telangana](state_n_union_territories)
+    - [telangana](state_n_union_territories)
+    - [TS](state_n_union_territories)
+    - [ts](state_n_union_territories)
+    - [Tripura](state_n_union_territories)
+    - [tripura](state_n_union_territories)
+    - [TR](state_n_union_territories)
+    - [tr](state_n_union_territories)
+    - [Uttar Pradesh](state_n_union_territories)
+    - [uttar pradesh](state_n_union_territories)
+    - [UP](state_n_union_territories)
+    - [up](state_n_union_territories)
+    - [Uttarakhand](state_n_union_territories)
+    - [uttarakhand](state_n_union_territories)
+    - [UK](state_n_union_territories)
+    - [uk](state_n_union_territories)
+    - [West Bengal](state_n_union_territories)
+    - [west bengal](state_n_union_territories)
+    - [WB](state_n_union_territories)
+    - [wb](state_n_union_territories)
+    - [Andaman and Nicobar Islands](state_n_union_territories)
+    - [andaman and nicobar islands](state_n_union_territories)
+    - [AN](state_n_union_territories)
+    - [an](state_n_union_territories)
+    - [Chandigarh](state_n_union_territories)
+    - [chandigarh](state_n_union_territories)
+    - [CH](state_n_union_territories)
+    - [ch](state_n_union_territories)
+    - [Dadra and Nagar Haveli and Daman and Diu](state_n_union_territories)
+    - [dadra and nagar haveli and daman and diu](state_n_union_territories)
+    - [DD](state_n_union_territories)
+    - [dd](state_n_union_territories)
+    - [Delhi](state_n_union_territories)
+    - [delhi](state_n_union_territories)
+    - [DL](state_n_union_territories)
+    - [dl](state_n_union_territories)
+    - [Jammu and Kashmir](state_n_union_territories)
+    - [jammu and kashmir](state_n_union_territories)
+    - [JK](state_n_union_territories)
+    - [jk](state_n_union_territories)
+    - [Ladakh](state_n_union_territories)
+    - [ladakh](state_n_union_territories)
+    - [LA](state_n_union_territories)
+    - [la](state_n_union_territories)
+    - [Lakshadweep](state_n_union_territories)
+    - [lakshadweep](state_n_union_territories)
+    - [LD](state_n_union_territories)
+    - [ld](state_n_union_territories)
+    - [Puducherry](state_n_union_territories)
+    - [puducherry](state_n_union_territories)
+    - [PY](state_n_union_territories)
+    - [py](state_n_union_territories)
+    - covid in [MP](state_n_union_territories)
+    - covid in [MP](state_n_union_territories) state_n_union_territories
+    - covid [mp](state_n_union_territories)
+    - covid [MP](state_n_union_territories) state_n_union_territories
+    - covid in [madhya pradesh](state_n_union_territories)
+    - covid [mp](state_n_union_territories)
+    - covid [madhya pradesh](state_n_union_territories)
+    - covid condition in [mp](state_n_union_territories)
+    - covid condition in [madhya pradesh](state_n_union_territories)
+    - covid condition [mp](state_n_union_territories)
+    - covid condition in [madhya pradesh](state_n_union_territories)
+    - what is the situation in [mp](state_n_union_territories)
+    - what is the covid situation in [madhya pradesh](state_n_union_territories)
+    - covid cases in [madhya pradesh](state_n_union_territories)
+    - cases in [mp](state_n_union_territories) 
+    - corona situation in [mp](state_n_union_territories)
+    - corona positive in [madhya pradesh](state_n_union_territories)
+    - corona condition in [mp](state_n_union_territories)
+    - corona in [madhya pradesh](state_n_union_territories)
+    - corona count in [mp](state_n_union_territories)
+    - corona count [madhya pradesh](state_n_union_territories)
+    - covid count [madhya pradesh](state_n_union_territories)
+    - covid count in [mp](state_n_union_territories)
+    - situation in [india](state_n_union_territories)
+    - situation in [ind](state_n_union_territories)
+    
+
